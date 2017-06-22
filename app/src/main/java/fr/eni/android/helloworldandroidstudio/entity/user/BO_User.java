@@ -1,6 +1,8 @@
 package fr.eni.android.helloworldandroidstudio.entity.user;
 
-public class BO_User {
+import java.io.Serializable;
+
+public class BO_User implements Serializable {
 
     public int id;
     public String firstName;

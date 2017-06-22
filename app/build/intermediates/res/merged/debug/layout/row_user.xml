@@ -13,30 +13,29 @@
         android:background="@mipmap/ic_launcher"
         android:contentDescription="@string/photoDescription"/>
 
+    <TextView android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_alignStart="@+id/firstName"
+        android:layout_alignLeft="@+id/firstName"
+        android:layout_alignTop="@+id/photo"
+        android:text="Nom" />
+
     <TextView
         android:id="@+id/firstName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/photo"
         android:layout_marginStart="10dp"
         android:layout_toEndOf="@+id/photo"
-
-        android:textColor="@color/colorAccent"
-        android:textStyle="bold"
-        android:text="Nom"
-        android:layout_toRightOf="@+id/photo"
-        android:layout_marginLeft="10dp" />
-    <!--android:layout_toStartOf="@+id/button"-->
-
-    <TextView android:id="@+id/lastName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:textColor="@android:color/black"
-        android:layout_alignStart="@+id/firstName"
-        android:layout_below="@+id/firstName"
-
         android:text="Prénom"
-        android:layout_alignLeft="@+id/firstName" />
+        android:layout_toRightOf="@+id/photo"
+        android:layout_below="@+id/lastName"
+        android:layout_marginLeft="10dp" />
+
+    <!--android:layout_toStartOf="@+id/button"-->
     <!--android:layout_toStartOf="@+id/button"-->
 
     <!--<Button-->

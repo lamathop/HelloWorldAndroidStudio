@@ -2,4 +2,6 @@
     <string name="app_name">Users</string>
     <string name="voir">Voir</string>
     <string name="photoDescription">Photo de l\'utilisateur</string>
+    <string name="titleUserCreate">Création d\'un utilisateur</string>
+    <string name="titleUserUpdate">Modification d\'un utilisateur</string>
 </resources>

@@ -160,6 +160,10 @@
         "source": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\61046593e8dd7b03ff11a1565263a26b4d4bf126\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_userform.xml",
+        "source": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\src\\main\\res\\layout\\activity_userform.xml"
+    },
+    {
         "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\61046593e8dd7b03ff11a1565263a26b4d4bf126\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },

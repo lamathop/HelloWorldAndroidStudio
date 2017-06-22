@@ -6,6 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
+import fr.eni.android.helloworldandroidstudio.R;
 import fr.eni.android.helloworldandroidstudio.entity.*;
 
 import java.util.ArrayList;
@@ -15,6 +16,8 @@ public class DAL_User extends DAL
     private static String colId = "ID";
     private static String colFirstName = "FIRSTNAME";
     private static String colLastName = "LASTNAME";
+    private static String colNickName = "NICKNAME";
+    private static String colPhoto = "PHOTO";
 
     public DAL_User(Context context)
     {
@@ -30,16 +33,19 @@ public class DAL_User extends DAL
         db.execSQL("CREATE TABLE " + tableName + " (" +
                 colId + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 colFirstName + " TEXT, " +
-                colLastName + " TEXT);");
+                colLastName + " TEXT"+
+                colNickName + "TEXT"+
+                colPhoto + "BLOB"+
+                ");");
     }
 
     public void alterTable(SQLiteDatabase db, int oldVersion, int newVersion)
     {
         if (oldVersion < 2) {
-            bdd.execSQL("ALTER TABLE "+tableName+" ADD COLUMN PHOTO");
+            bdd.execSQL("ALTER TABLE "+tableName+" ADD COLUMN "+colNickName);
         }
         if (oldVersion < 3) {
-            bdd.execSQL("ALTER TABLE "+tableName+" ADD COLUMN NICKNAME");
+            bdd.execSQL("ALTER TABLE "+tableName+" ADD COLUMN "+colPhoto);
         }
     }
 
@@ -61,7 +67,7 @@ public class DAL_User extends DAL
         return bdd.insert(tableName,null,BOToContent(user));
     }
 
-    public long updateUser(BO_User user)
+    public int updateUser(BO_User user)
     {
         return bdd.update(tableName,BOToContent(user),colId+" = "+user.id,null);
     }
@@ -88,10 +94,25 @@ public class DAL_User extends DAL
         return user;
     }
 
+    public BO_User getUser()
+    {
+        BO_User user = new BO_User();
+        Cursor c = bdd.query(tableName,new String[]{colId,colFirstName,colLastName},null,null,null,null,colFirstName);
+
+        if (c.moveToFirst())
+        {
+            user.id         = c.getInt(c.getColumnIndex(colId));
+            user.firstName  = c.getString(c.getColumnIndex(colFirstName));
+            user.lastName   = c.getString(c.getColumnIndex(colLastName));
+        }
+
+        return user;
+    }
+
     public ArrayList<BO_User> getAllUsers()
     {
         ArrayList<BO_User> userList = new ArrayList<>();
-        Cursor c = bdd.query(tableName,new String[]{colId,colFirstName,colLastName},null,null,null,null,colFirstName);
+        Cursor c = bdd.query(tableName,new String[]{colId,colFirstName,colLastName},null,null,null,null,colLastName);
 
         if (c.getCount() == 0)
         {

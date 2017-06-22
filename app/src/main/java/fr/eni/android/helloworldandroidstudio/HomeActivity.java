@@ -1,17 +1,15 @@
 package fr.eni.android.helloworldandroidstudio;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
-
 import java.util.List;
-
 import fr.eni.android.helloworldandroidstudio.entity.user.*;
-
-import fr.eni.android.helloworldandroidstudio.entity.user.BO_User;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -25,15 +23,30 @@ public class HomeActivity extends AppCompatActivity {
 
         list = (ListView) findViewById(R.id.listUsers);
 
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+            public void onItemClick(AdapterView<?> adapter, View v,int position, long id)
+            {
+                viewUser((BO_User) adapter.getItemAtPosition(position));
+            }
+
+        });
+
         refreshUserList();
     }
 
-    public boolean onCreateOptionsMenu(Menu menu) {
-
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
         getMenuInflater().inflate(R.menu.menu_home, menu);
-
         return true;
+    }
 
+    @Override
+    public void onResume()
+    {
+        super.onResume();
+        refreshUserList();
     }
 
     private void refreshUserList()
@@ -52,19 +65,22 @@ public class HomeActivity extends AppCompatActivity {
     public void dropUsers(MenuItem item)
     {
         DAL_User bdd = new DAL_User(this);
-
         bdd.removeAll();
-
         refreshUserList();
     }
 
     public void createUsers(View v)
     {
-        DAL_User bdd = new DAL_User(this);
-        bdd.insertUser(new BO_User("Hugues","ALLAIN",0));
-        bdd.insertUser(new BO_User("Carole","MOREAU",0));
+        Intent intent = new Intent(HomeActivity.this,UserFormActivity.class);
+        intent.putExtra("user",new BO_User());
+        startActivity(intent);
+    }
 
-        refreshUserList();
+    public void viewUser(BO_User user)
+    {
+        Intent intent = new Intent(HomeActivity.this,UserFormActivity.class);
+        intent.putExtra("user",user);
+        startActivity(intent);
     }
 
 }

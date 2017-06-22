@@ -45,7 +45,8 @@ public class UserAdapter extends ArrayAdapter<BO_User> {
         return convertView;
     }
 
-    private class UserViewHolder{
+    private class UserViewHolder
+    {
         public TextView firstName;
         public TextView lastName;
         public ImageView photo;
