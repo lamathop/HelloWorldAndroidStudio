@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Users</string>
+    <string name="voir">Voir</string>
+    <string name="photoDescription">Photo de l\'utilisateur</string>
+</resources>

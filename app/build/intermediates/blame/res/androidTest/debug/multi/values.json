@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\27e3f0eb383750fbae6591e7348f794ec7c6a83a\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]
