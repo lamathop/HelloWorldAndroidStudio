@@ -23,7 +23,7 @@
         android:layout_toStartOf="@+id/button"
         android:textColor="@color/colorAccent"
         android:textStyle="bold"
-        tools:text="Nom" />
+        android:text="Nom" />
 
     <TextView android:id="@+id/lastName"
         android:layout_width="match_parent"
@@ -32,16 +32,14 @@
         android:layout_alignStart="@+id/firstName"
         android:layout_below="@+id/firstName"
         android:layout_toStartOf="@+id/button"
-        tools:text="Prénom" />
+        android:text="Prénom" />
 
     <Button
         android:id="@+id/button"
         style="@android:style/Widget.DeviceDefault.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toStartOf="@+id/lastName"
-        android:text="@string/voir"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentRight="true"
+        android:text="@string/voir" />
 
 </RelativeLayout>
