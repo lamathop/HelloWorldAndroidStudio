@@ -5,6 +5,6 @@
         android:id="@+id/action_drop"
         android:title="Delete All"
         android:onClick="dropUsers"
-        app:showAsAction="never">
+        app:showAsAction="ifRoom">
     </item>
 </menu>

@@ -12,6 +12,10 @@
         "source": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\8730f31dd57686a6e2bf69c8df0ff9561b0b3819\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
+        "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\61046593e8dd7b03ff11a1565263a26b4d4bf126\\output\\res\\layout\\notification_action.xml"
+    },
+    {
         "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\61046593e8dd7b03ff11a1565263a26b4d4bf126\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
@@ -84,16 +88,20 @@
         "source": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\8730f31dd57686a6e2bf69c8df0ff9561b0b3819\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\61046593e8dd7b03ff11a1565263a26b4d4bf126\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\61046593e8dd7b03ff11a1565263a26b4d4bf126\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
+        "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\61046593e8dd7b03ff11a1565263a26b4d4bf126\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\61046593e8dd7b03ff11a1565263a26b4d4bf126\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\61046593e8dd7b03ff11a1565263a26b4d4bf126\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
@@ -102,6 +110,10 @@
     {
         "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
         "source": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\61046593e8dd7b03ff11a1565263a26b4d4bf126\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\61046593e8dd7b03ff11a1565263a26b4d4bf126\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
@@ -174,6 +186,10 @@
     {
         "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\61046593e8dd7b03ff11a1565263a26b4d4bf126\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\HUGUES.ABELIUM\\.android\\build-cache\\61046593e8dd7b03ff11a1565263a26b4d4bf126\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",

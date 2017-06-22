@@ -3118,7 +3118,7 @@ containing a value of this type.
         public static final int action_container=0x7f0d0089;
         public static final int action_context_bar=0x7f0d006c;
         public static final int action_divider=0x7f0d0090;
-        public static final int action_drop=0x7f0d00a6;
+        public static final int action_drop=0x7f0d00a5;
         public static final int action_image=0x7f0d008a;
         public static final int action_menu_divider=0x7f0d0002;
         public static final int action_menu_presenter=0x7f0d0003;
@@ -3126,7 +3126,7 @@ containing a value of this type.
         public static final int action_mode_bar_stub=0x7f0d0067;
         public static final int action_mode_close_button=0x7f0d004a;
         public static final int action_text=0x7f0d008b;
-        public static final int actions=0x7f0d0098;
+        public static final int actions=0x7f0d0099;
         public static final int activity_chooser_view_content=0x7f0d004b;
         public static final int add=0x7f0d0026;
         public static final int addButton=0x7f0d007c;
@@ -3137,7 +3137,6 @@ containing a value of this type.
         public static final int basic=0x7f0d0015;
         public static final int beginning=0x7f0d003f;
         public static final int bottom=0x7f0d002e;
-        public static final int button=0x7f0d00a2;
         public static final int buttonPanel=0x7f0d0052;
         public static final int cancel_action=0x7f0d008d;
         public static final int center=0x7f0d002f;
@@ -3176,13 +3175,13 @@ containing a value of this type.
         public static final int home=0x7f0d0004;
         public static final int homeAsUp=0x7f0d001c;
         public static final int icon=0x7f0d0050;
-        public static final int icon_group=0x7f0d0099;
+        public static final int icon_group=0x7f0d009a;
         public static final int ifRoom=0x7f0d0043;
         public static final int image=0x7f0d004d;
         public static final int info=0x7f0d0096;
         public static final int item_touch_helper_previous_elevation=0x7f0d0005;
         public static final int largeLabel=0x7f0d007e;
-        public static final int lastName=0x7f0d00a3;
+        public static final int lastName=0x7f0d00a2;
         public static final int left=0x7f0d0034;
         public static final int line1=0x7f0d009b;
         public static final int line3=0x7f0d009d;
@@ -3190,7 +3189,7 @@ containing a value of this type.
         public static final int listUsers=0x7f0d007b;
         public static final int list_item=0x7f0d004f;
         public static final int main_content=0x7f0d007a;
-        public static final int masked=0x7f0d00a5;
+        public static final int masked=0x7f0d00a4;
         public static final int media_actions=0x7f0d008f;
         public static final int middle=0x7f0d0040;
         public static final int mini=0x7f0d003e;
@@ -3199,7 +3198,7 @@ containing a value of this type.
         public static final int never=0x7f0d0044;
         public static final int none=0x7f0d0017;
         public static final int normal=0x7f0d0019;
-        public static final int notification_background=0x7f0d0097;
+        public static final int notification_background=0x7f0d0098;
         public static final int notification_main_column=0x7f0d0092;
         public static final int notification_main_column_container=0x7f0d0091;
         public static final int packed=0x7f0d0012;
@@ -3212,7 +3211,7 @@ containing a value of this type.
         public static final int progress_horizontal=0x7f0d0007;
         public static final int radio=0x7f0d0064;
         public static final int right=0x7f0d0035;
-        public static final int right_icon=0x7f0d009a;
+        public static final int right_icon=0x7f0d0097;
         public static final int right_side=0x7f0d0093;
         public static final int screen=0x7f0d0028;
         public static final int scroll=0x7f0d0024;
@@ -3270,7 +3269,7 @@ containing a value of this type.
         public static final int up=0x7f0d000d;
         public static final int useLogo=0x7f0d0020;
         public static final int view_offset_helper=0x7f0d000e;
-        public static final int visible=0x7f0d00a4;
+        public static final int visible=0x7f0d00a3;
         public static final int withText=0x7f0d0045;
         public static final int wrap=0x7f0d0011;
         public static final int wrap_content=0x7f0d002c;
