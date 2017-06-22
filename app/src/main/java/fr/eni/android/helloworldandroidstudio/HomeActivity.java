@@ -1,9 +1,10 @@
 package fr.eni.android.helloworldandroidstudio;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.List;
@@ -12,7 +13,7 @@ import fr.eni.android.helloworldandroidstudio.entity.user.*;
 
 import fr.eni.android.helloworldandroidstudio.entity.user.BO_User;
 
-public class HomeActivity extends Activity {
+public class HomeActivity extends AppCompatActivity {
 
     private ListView list;
 
@@ -25,6 +26,14 @@ public class HomeActivity extends Activity {
         list = (ListView) findViewById(R.id.listUsers);
 
         refreshUserList();
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.menu_home, menu);
+
+        return true;
+
     }
 
     private void refreshUserList()
@@ -40,7 +49,7 @@ public class HomeActivity extends Activity {
         list.setAdapter(adapter);
     }
 
-    public void dropUsers(View v)
+    public void dropUsers(MenuItem item)
     {
         DAL_User bdd = new DAL_User(this);
 

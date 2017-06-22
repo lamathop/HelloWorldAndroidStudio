@@ -16,6 +16,17 @@ ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidSt
 application
 ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:5:5-19:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\HUGUES.ABELIUM\.android\build-cache\2570d2eb19d6de6098b0541b79de928919643fd4\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\8730f31dd57686a6e2bf69c8df0ff9561b0b3819\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\61046593e8dd7b03ff11a1565263a26b4d4bf126\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\45894b5ce78b691f3cfc89e1c0e6c919e15f1554\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\d424339094c409d3982bc1bc3b00e72318a8029f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\57f79bef7880135a47f6e559bf5d5a6dd845b58a\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\04331a467d5d2f0cbb07eade34de3249f1bdd23b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\f21cb64d5e89aed544ec5bf47de7371f223fdc7b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\72e56763a52ec683c07283cd0fb471b62ad50d4e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\bce9bb695e550b7df2686f0d667fdddeb69609f2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\cc45af0af6928406ec75b6d672fca0882dd4def4\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\a9c371cb11430407173bafd8d9ea1e214183b83d\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:8:9-41
 	android:supportsRtl
@@ -27,7 +38,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\HU
 	android:icon
 		ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:11:9-67
 activity#fr.eni.android.helloworldandroidstudio.HomeActivity
 ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
@@ -45,9 +56,40 @@ ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidSt
 uses-sdk
 INJECTED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\HUGUES.ABELIUM\.android\build-cache\2570d2eb19d6de6098b0541b79de928919643fd4\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\8730f31dd57686a6e2bf69c8df0ff9561b0b3819\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\61046593e8dd7b03ff11a1565263a26b4d4bf126\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\45894b5ce78b691f3cfc89e1c0e6c919e15f1554\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\d424339094c409d3982bc1bc3b00e72318a8029f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\9aed856bd7c3ad464de263e67b95b6a12d3dbbe0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\57f79bef7880135a47f6e559bf5d5a6dd845b58a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\04331a467d5d2f0cbb07eade34de3249f1bdd23b\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\f21cb64d5e89aed544ec5bf47de7371f223fdc7b\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\72e56763a52ec683c07283cd0fb471b62ad50d4e\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\bce9bb695e550b7df2686f0d667fdddeb69609f2\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\cc45af0af6928406ec75b6d672fca0882dd4def4\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\a9c371cb11430407173bafd8d9ea1e214183b83d\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\8730f31dd57686a6e2bf69c8df0ff9561b0b3819\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\8730f31dd57686a6e2bf69c8df0ff9561b0b3819\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\61046593e8dd7b03ff11a1565263a26b4d4bf126\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\45894b5ce78b691f3cfc89e1c0e6c919e15f1554\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\d424339094c409d3982bc1bc3b00e72318a8029f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\9aed856bd7c3ad464de263e67b95b6a12d3dbbe0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\57f79bef7880135a47f6e559bf5d5a6dd845b58a\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\04331a467d5d2f0cbb07eade34de3249f1bdd23b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\f21cb64d5e89aed544ec5bf47de7371f223fdc7b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\72e56763a52ec683c07283cd0fb471b62ad50d4e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\bce9bb695e550b7df2686f0d667fdddeb69609f2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\cc45af0af6928406ec75b6d672fca0882dd4def4\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\a9c371cb11430407173bafd8d9ea1e214183b83d\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\8730f31dd57686a6e2bf69c8df0ff9561b0b3819\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\8730f31dd57686a6e2bf69c8df0ff9561b0b3819\output\AndroidManifest.xml:26:9-47
