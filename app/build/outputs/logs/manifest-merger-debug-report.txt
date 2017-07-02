@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:2:1-21:12
 	package
 		ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:3:5-53
 		INJECTED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidSt
 		INJECTED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:5:5-20:19
+ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:5:5-19:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\HUGUES.ABELIUM\.android\build-cache\2570d2eb19d6de6098b0541b79de928919643fd4\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\8730f31dd57686a6e2bf69c8df0ff9561b0b3819\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\HUGUES.ABELIUM\.android\build-cache\61046593e8dd7b03ff11a1565263a26b4d4bf126\output\AndroidManifest.xml:29:5-20
@@ -41,23 +41,23 @@ MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\HUGUES.ABELIUM\.an
 	android:theme
 		ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:11:9-67
 activity#fr.eni.android.helloworldandroidstudio.HomeActivity
-ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:12:9-17:20
 	android:name
 		ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:13:13-16:29
 action#android.intent.action.MAIN
 ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
 		ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:15:17-77
 	android:name
-		ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:15:27-74
 activity#fr.eni.android.helloworldandroidstudio.UserFormActivity
-ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:19:9-63
+ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:18:9-63
 	android:name
-		ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:19:19-51
+		ADDED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml:18:19-51
 uses-sdk
 INJECTED from C:\Users\HUGUES.ABELIUM\Documents\AndroidProjects\HelloWorldAndroidStudio\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\HUGUES.ABELIUM\.android\build-cache\2570d2eb19d6de6098b0541b79de928919643fd4\output\AndroidManifest.xml:5:5-7:41

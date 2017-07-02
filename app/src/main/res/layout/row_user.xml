@@ -8,32 +8,37 @@
 
     <ImageView
         android:id="@+id/photo"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@mipmap/ic_launcher"
-        android:contentDescription="@string/photoDescription"/>
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@mipmap/ic_launcher_round"
+        android:contentDescription="@string/photoDescription"
+        android:elevation="24dp" />
 
-    <TextView android:id="@+id/lastName"
+    <TextView
+        android:id="@+id/lastName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorAccent"
-        android:textStyle="bold"
-        android:layout_alignStart="@+id/firstName"
         android:layout_alignLeft="@+id/firstName"
+        android:layout_alignStart="@+id/firstName"
         android:layout_alignTop="@+id/photo"
-        android:text="Nom" />
+        android:text="Nom"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/firstName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_toEndOf="@+id/photo"
-        android:textColor="@android:color/black"
-        android:text="Prénom"
-        android:layout_toRightOf="@+id/photo"
         android:layout_below="@+id/lastName"
-        android:layout_marginLeft="10dp" />
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/photo"
+        android:layout_toRightOf="@+id/photo"
+        android:paddingTop="5dp"
+        android:text="Prénom"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
 
     <!--android:layout_toStartOf="@+id/button"-->
     <!--android:layout_toStartOf="@+id/button"-->

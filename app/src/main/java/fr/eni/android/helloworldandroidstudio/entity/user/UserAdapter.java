@@ -1,7 +1,11 @@
 package fr.eni.android.helloworldandroidstudio.entity.user;
 
 import android.content.Context;
-import android.graphics.drawable.ColorDrawable;
+import android.content.res.Resources;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,9 +17,12 @@ import fr.eni.android.helloworldandroidstudio.R;
 
 public class UserAdapter extends ArrayAdapter<BO_User> {
 
+    private Context context;
+
     public UserAdapter(Context context, List < BO_User > users)
     {
         super(context, 0, users);
+        this.context = context;
     }
 
     @Override
@@ -40,7 +47,14 @@ public class UserAdapter extends ArrayAdapter<BO_User> {
         BO_User user = getItem(position);
         viewHolder.firstName.setText(user.firstName);
         viewHolder.lastName.setText(user.lastName);
-        viewHolder.photo.setImageDrawable(new ColorDrawable(user.color));
+
+        Resources res = context.getResources();
+        Bitmap src = BitmapFactory.decodeResource(res, R.mipmap.ic_user);
+        RoundedBitmapDrawable dr = RoundedBitmapDrawableFactory.create(res, src);
+        dr.setCornerRadius(Math.max(src.getWidth(), src.getHeight()) / 2.0f);
+        viewHolder.photo.setImageDrawable(dr);
+
+        //viewHolder.photo.setImageDrawable(new ColorDrawable(user.color));
 
         return convertView;
     }

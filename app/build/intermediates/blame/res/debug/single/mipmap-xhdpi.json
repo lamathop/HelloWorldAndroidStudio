@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_user.png",
+        "source": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\src\\main\\res\\mipmap-xhdpi\\ic_user.png"
+    },
+    {
         "merged": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher_round.png",
         "source": "C:\\Users\\HUGUES.ABELIUM\\Documents\\AndroidProjects\\HelloWorldAndroidStudio\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
